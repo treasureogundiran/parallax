@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 3.2rem;
+  font-weight: normal;
+  background: black;
+  color: white;
+  letter-spacing: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h2 {
+  font-size: 2.2rem;
+  margin: 2rem 0 0 0;
+}
+h3 {
+  font-size: 3.2rem;
+  font-weight: normal;
+  background: black;
+  padding: 1rem;
+  color: white;
+  letter-spacing: 1rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+blockquote {
+  width: 90%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2rem 0rem;
+}
+
+.parallax-bkg {
+  background-image: url("./img/parallax-bkg.jpg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section-one,
+.section-two {
+  min-height: 35vh;
+  background: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-two,
+.image-three {
+  background-image: url("./img/pexels-chait-goli-1796738.jpg");
+  min-height: 65vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.image-three {
+  background-image: url("./img/parallax-bkg.jpg");
+}
